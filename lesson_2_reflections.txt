@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+You initialize a repository by using: git initialize
+This creates a .git folder that keeps data about the versions.
+A new repository doesn't have commits. You can use: git starus to 
+see the files in the repository. They will be untracked because you 
+haven't made any commits yet. 
