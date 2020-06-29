@@ -5,3 +5,23 @@ This creates a .git folder that keeps data about the versions.
 A new repository doesn't have commits. You can use: git starus to 
 see the files in the repository. They will be untracked because you 
 haven't made any commits yet. 
+
+How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+
+the staging area is where you add files before you commit. I think 
+the files you add are the ones you take a snapshot of at that commit. 
+
+######################################################################
+####################  NOTES ##########################################
+
+git diff without argument gives difference between stage and working directory
+stage by default is the same as last commit but changes when you use git add
+(if you actually made file changes). 
+git diff --stage tells the difference between the stage and the last commit.
+git diff commit1 commit2 tells the difference between commit1 and commit2
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+1. When you have a working copy but want to test something its useful to create a new branches
+2. When you need multiple versions of a project it's also useful
