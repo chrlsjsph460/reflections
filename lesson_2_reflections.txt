@@ -32,3 +32,19 @@ Let's you see which commits are on the same branch
 Let's you see which commits are unreachable
 A picture is worth a thousand words. So you can figure things out more quickly. 
 
+If a branch is deleted and leaves some commits unreachable from existing branches, 
+those commits will continue to be accessible by commit id, until Git’s garbage collection runs. 
+This will happen automatically from time to time, unless you actively turn it off. 
+You can also run this process manually with git gc.
+
+QUESTION
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+When you merge two branches you end up with one branch keeping the 
+parts common to both branches and possibly the parts that are unique to 
+the branches that are being merged. This part hasn't been discussed yet.
+We represent it using the branch diagram so that we can see the possibly unique commits
+and we can see where things started to branch off and change. 
+
+
