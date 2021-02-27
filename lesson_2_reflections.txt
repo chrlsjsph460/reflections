@@ -47,4 +47,6 @@ the branches that are being merged. This part hasn't been discussed yet.
 We represent it using the branch diagram so that we can see the possibly unique commits
 and we can see where things started to branch off and change. 
 
-
+QUESTION
+What are the pros and cons of Git’s automatic merging vs. 
+always doing merges manually?
